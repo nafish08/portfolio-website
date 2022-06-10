@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const menuItems = <>
         <li><Link to={'/projects'}>Projects</Link></li>
-        <li><Link to={'/downloadResume'}>Download Resume</Link></li>
+        <li><button><a href='https://drive.google.com/file/d/1b_q8eZSXMGgtwFvUvmcL_JcJvddfB-VX/view?usp=sharing' target='_blank' download>Download Resume</a></button></li>
     </>
     return (
         <div class="navbar bg-base-100">
@@ -17,7 +17,7 @@ const Header = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Md. Nafish Sadik</a>
+                <a class="btn btn-ghost normal-case text-xl">PORTFOLIO</a>
             </div>
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
