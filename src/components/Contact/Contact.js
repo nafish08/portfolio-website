@@ -17,14 +17,14 @@ const Contact = () => {
         <div className='flex justify-center lg:px-10' id='contactMe'>
             <div className='w-full'>
                 <h2 className='text-5xl uppercase font-bold text-center py-6'>Contact Me</h2>
-                <div class="grid lg:grid-cols-2 grid-cols-1 bg-base-100 shadow-xl">
+                <div className="grid lg:grid-cols-2 grid-cols-1 bg-base-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/xjbhB41/contact-us.jpg" alt="Album" /></figure>
-                    <div class="card-body">
+                    <div className="card-body">
                         <form onSubmit={sendEmail}>
-                            <input type="text" placeholder="Subject" class="input input-bordered w-full mb-3" name='subject' /><br />
-                            <input type="text" placeholder="Your Name" class="input input-bordered w-full mb-3" name='name' /><br />
-                            <input type="email" placeholder="Your Email" class="input input-bordered w-full mb-3" name='email' /><br />
-                            <textarea class="textarea textarea-bordered w-full mb-3" placeholder="Type your message here..." name='message'></textarea><br />
+                            <input type="text" placeholder="Subject" className="input input-bordered w-full mb-3" name='subject' /><br />
+                            <input type="text" placeholder="Your Name" className="input input-bordered w-full mb-3" name='name' /><br />
+                            <input type="email" placeholder="Your Email" className="input input-bordered w-full mb-3" name='email' /><br />
+                            <textarea className="textarea textarea-bordered w-full mb-3" placeholder="Type your message here..." name='message'></textarea><br />
                             <input type="submit" className='btn' value="Send" />
                         </form>
                     </div>

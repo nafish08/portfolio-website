@@ -22,7 +22,6 @@ const Home = () => {
             <About></About>
             <Projects></Projects>
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };

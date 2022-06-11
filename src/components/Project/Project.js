@@ -1,17 +1,13 @@
-import React from 'react';
+import React, { Children } from 'react';
 
-const Project = ({ project }) => {
+const Project = ({ project, children }) => {
     const { img, name, description, preview, client, server } = project;
     return (
         <div className="card w-96 bg-white shadow-xl">
             <figure><img src={img} alt="" /></figure>
             <div className="card-body">
-                <h2 className="card-title p-3 text-base-100 text-center">{name}</h2>
-                <button className='btn'>Details</button>
-                <div className="card-actions justify-end">
-                    <div className="badge badge-outline text-base-100">React.js</div>
-                    <div className="badge badge-outline text-base-100">Node.js</div>
-                </div>
+                <h2 className="card-title p-3 text-base-100 text-center block">{name}</h2>
+                {children}
                 <div className='flex justify-between'>
                     <a href={preview} target='_blank' className='btn'>Preview</a>
                     <div>

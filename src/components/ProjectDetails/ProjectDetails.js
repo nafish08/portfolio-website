@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import useProjects from '../../hooks/useProjects';
 import Project from '../Project/Project';
-import { Link } from 'react-router-dom';
 
-const Projects = () => {
+const ProjectDetails = () => {
     const [projects, setProjects] = useProjects();
     return (
         <div className='flex justify-center'>
@@ -15,8 +14,11 @@ const Projects = () => {
                             key={project.id}
                             project={project}
                         >
-                            <Link to={'/projectDetails'}><button className='btn w-full'>Details</button></Link>
-
+                            <p className='text-black'>{project.description}</p>
+                            <h2 className='font-bold text-black'>Technology Used:</h2>
+                            <div className='flex justify-center'>
+                                <p className='text-sm text-primary'>{project.tech}</p>
+                            </div>
                         </Project>)
                     }
                 </div>
@@ -25,4 +27,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ProjectDetails;

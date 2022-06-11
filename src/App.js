@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Projects from './components/Projects/Projects';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,7 +12,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/projectDetails' element={<ProjectDetails></ProjectDetails>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

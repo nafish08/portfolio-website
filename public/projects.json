@@ -6,6 +6,7 @@
         "preview": "https://nfs-camera-zone.firebaseapp.com/",
         "server": "https://github.com/nafish08/nfs-camera-zone-server-side",
         "client": "https://github.com/nafish08/nfs-camera-zone-client-side",
+        "tech": "React.js, Node.js, Axios, DaisyUI, Tailwind CSS, Toastify, MongoDB, Firebase, React Hook Form, React Router Dom",
         "img": "https://i.ibb.co/MC7CrfS/nfs-camera-zone.png"
     },
     {
@@ -15,6 +16,7 @@
         "preview": "https://books-heaven-10067.web.app/",
         "server": "https://github.com/nafish08/books-heaven-server-side",
         "client": "https://github.com/nafish08/books-heaven-client-side",
+        "tech": "React.js, Node.js, Axios, DaisyUI, Tailwind CSS, Toastify, MongoDB Firebase, React Router Dom",
         "img": "https://i.ibb.co/bzKyS6v/books-heaven.png"
     },
     {
@@ -24,6 +26,27 @@
         "preview": "https://nfs-photography.web.app/",
         "server": "",
         "client": "https://github.com/nafish08/nfs-photography",
+        "tech": "React.js, Toastify, Firebase, React Router Dom",
         "img": "https://i.ibb.co/HdwLhpv/nfs-photography.png"
+    },
+    {
+        "id": 4,
+        "name": "Creative Convention Center",
+        "description": "Creative convention center is a convention center booking website.",
+        "preview": "https://creative-convention-center.netlify.app/",
+        "server": "",
+        "client": "https://github.com/nafish08/creative-convention-center",
+        "tech": "React.js, Toastify, Firebase, React Router Dom",
+        "img": "https://i.ibb.co/rsXq8sN/creative-convention-center.png"
+    },
+    {
+        "id": 5,
+        "name": "Mobile World",
+        "description": "Mobile World is e mobile phone specifications searching website.",
+        "preview": "https://competent-bohr-7c89bb.netlify.app/",
+        "server": "",
+        "client": "https://github.com/nafish08/mobile-world",
+        "tech": "React.js, Tailwind CSS, Toastify, Firebase, React Router Dom",
+        "img": "https://i.ibb.co/D5zY96B/mobile-world.png"
     }
 ]
