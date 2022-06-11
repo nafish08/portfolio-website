@@ -14,7 +14,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center lg:px-10' id='contactMe'>
             <div className='w-full'>
                 <h2 className='text-5xl uppercase font-bold text-center py-6'>Contact Me</h2>
                 <div class="grid lg:grid-cols-2 grid-cols-1 bg-base-100 shadow-xl">

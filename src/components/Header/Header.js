@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const menuItems = <>
-        <li><a href='#projects'>Projects</a></li>
-        <li><button><a href='https://drive.google.com/file/d/1b_q8eZSXMGgtwFvUvmcL_JcJvddfB-VX/view?usp=sharing' target='_blank' download>Download Resume</a></button></li>
+        <li><a className='uppercase' href='#projects'>Projects</a></li>
+        <li><a className='uppercase' href='#contactMe'>Contact Me</a></li>
+        <li><button className='btn btn-primary uppercase'><a href='https://drive.google.com/file/d/1b_q8eZSXMGgtwFvUvmcL_JcJvddfB-VX/view?usp=sharing' target='_blank' download>Download Resume</a></button></li>
     </>
     return (
         <div className="navbar bg-base-100">
